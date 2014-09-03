@@ -1,0 +1,50 @@
+
+table {
+	width: 100%;
+	text-align: $table-text-align;
+	font-size: 14px;
+	border-spacing: 0;
+	
+	thead {
+		padding: 10px 0;
+			tr {
+				text-align: left;
+				font-size: $table-font-size;
+				th {
+				padding: 10px 0;
+				}
+			}
+	}
+	
+	tbody {
+		tr {
+			td{
+				padding: 9px 0;
+			}
+		}
+	}
+	
+	&.divided {
+		thead {			
+			tr {
+				th {
+					border-bottom: 1px solid $table-border-color;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td {
+					border-bottom: 1px solid $table-border-color;
+				}
+			}
+		}							
+	}
+	&.colored {
+		tbody{
+			tr:nth-child(even) {
+				background: $table-row-background-color;			
+			}
+		}		
+	}
+}

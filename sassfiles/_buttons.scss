@@ -1,0 +1,57 @@
+
+.button {
+	text-decoration: none;
+	color: $p-color-standard;
+	display: inline-block;
+		
+		&.small {
+			padding: $a-padding;
+			border: $a-border;
+			font-size: $a-button-small;
+			background: $a-bg-button;
+		
+		&:hover {
+			background: $a-bg-button-hover;
+			color: $a-color-btn-hover;
+		}
+		
+			&.rounded {
+				border-radius: $a-border-radius;		
+			}
+		
+		}
+		
+		&.medium {
+			padding: $a-padding;
+			border: $a-border;
+			font-size: $a-button-medium;
+			background: $a-bg-button;
+		
+			&.rounded {
+					border-radius: $a-border-radius;		
+			}
+		
+		&:hover {
+			background: $a-bg-button-hover;
+			color: $a-color-btn-hover;
+		}
+		}
+		
+		&.large {
+			padding: $a-padding;
+			border: $a-border;
+			font-size: $a-button-large;
+			background: $a-bg-button;
+			
+			&.rounded {
+				border-radius: $a-border-radius;		
+			}
+			
+		&:hover {
+			background: $a-bg-button-hover;
+			color: $a-color-btn-hover;
+		}
+		}
+
+
+}

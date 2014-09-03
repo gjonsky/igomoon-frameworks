@@ -1,0 +1,23 @@
+
+.box-fixed-width {
+	max-width: $box-large-width;
+	background: $box-large-bg;
+	border: 1px solid $box-line-color;
+	margin-bottom: $box-margin-bottom;
+	padding: $box-padding;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 40px;
+}
+
+.box-one-third {
+	width: 30%;
+	display: block;
+	float: left;
+}
+
+.box-one-third:last-child:after {
+	clear: both;
+	display: block;
+	content: ' ';
+}

@@ -1,0 +1,100 @@
+
+// Variables //
+
+
+	//Body
+		$body-color: #fafbfc;
+		$body-width: 100%;
+		$body-font-family: Helvetica, Arial, Sans-Serif;
+
+
+	//Headings
+
+		//Headings
+	
+		$heading-color-pr: #000;
+		$heading-font-weight: 500;
+		$heading-font-family: Helvetica, Arial, Sans-Serif;
+		
+
+	//Paragraphs
+		
+		//Typographical
+		
+		$p-font-size: 14px;
+		$p-line-height: 20px;
+		$p-font-family: Helvetica, Arial, Sans-Serif;
+		$p-weight-standard: 400;
+		$p-weight-highlight: 600;
+		
+		
+		//Colors
+		
+		$p-color-standard: #000;
+		$p-color-wrong: #e74c3c;
+		$p-color-warning: #f1c40f;
+		$p-color-well-done: #2ecc71;
+		$p-color-heads-up: #3498db;
+		$p-color-light: #b8b8b8;
+		
+	
+	//Blocks
+	
+		//Boxes
+	
+		$box-large-width: 100%;
+		$box-large-bg: #fff;
+		$box-line-color: #bfc5c6;
+		$box-margin-bottom: 40px;
+		$box-padding: 10px 10px;
+		
+		
+		//Widths
+		$one-third: 30%;
+
+
+	//Blocks
+	
+		//Forms
+		$form-shadow: 0px 0px 4px rgba(52, 52, 52, 0.2);
+		$form-radius: 2px;
+		
+
+	//Tables
+
+		//Tables
+		$table-text-align: left;
+		$table-border-color: #e2e2e2;
+		$table-row-background-color: #fafbfc;
+		$table-font-size: 14px;
+
+
+	//Buttons
+		$a-bg-button-hover: #000;
+		$a-color-btn-hover: #fff;
+		$a-border: 1px solid #000;
+		$a-bg-button: #fff;
+		$a-padding: 7px 40px;
+		$a-border-radius: 4px;
+	
+		//Buttons Small
+		$a-button-small: 12px;
+		
+		//Buttons Medium
+		$a-button-medium: 14px;
+
+		//Buttons large
+		$a-button-large: 16px;
+
+
+
+// Includes
+
+@import "sassfiles/headings";
+@import "sassfiles/p";
+@import "sassfiles/boxes";
+@import "sassfiles/body";
+@import "sassfiles/tables";
+@import "sassfiles/forms";
+@import "sassfiles/buttons";
+

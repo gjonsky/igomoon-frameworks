@@ -1,0 +1,25 @@
+//Variables
+
+
+p {
+	font-size: $p-font-size;
+	line-height: $p-line-height;
+	font-family: $p-font-family;
+	color: $p-color-standard;
+	
+	&.highlight {
+		font-weight: $p-weight-highlight;
+	}
+	&.wrong {
+	color: $p-color-wrong;
+	}
+	&.warning {
+	color: $p-color-warning;
+	}
+	&.well-done {
+	color: $p-color-well-done;
+	}
+	&.heads-up {
+	color: $p-color-heads-up;
+	}
+}

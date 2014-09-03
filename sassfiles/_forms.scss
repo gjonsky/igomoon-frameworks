@@ -1,0 +1,21 @@
+
+form {
+		input[type="text"], input[type="password"] {
+		padding: 7px 14px; 
+		outline: 0;	
+		border-radius: $form-radius;	
+		border: 1px solid $box-line-color;
+		font-family: $p-font-family;
+		font-size: $p-font-size;
+		font-weight: $p-weight-standard;
+			&:focus {
+				box-shadow: $form-shadow;
+			}
+		}
+}
+
+fieldset {
+	padding: 10;
+	border: 0;
+}
+
